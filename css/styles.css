@@ -164,7 +164,7 @@ button {
     height: 4px;
     background-color: var(--accent-color);
     border-radius: 2px;
-    bottom: -205%;
+    bottom: -210%;
 }
 
 .menu-nav .link:hover,
