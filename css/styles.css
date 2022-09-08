@@ -164,7 +164,7 @@ button {
     height: 4px;
     background-color: var(--accent-color);
     border-radius: 2px;
-    bottom: -210%;
+    bottom: 0;
 }
 
 .menu-nav .link:hover,
@@ -181,7 +181,7 @@ button {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    height: 100%;
+    padding: 32px 0;
 }
 
 /* =============== NAVIGATION CONTACT SECTION =============== */
@@ -376,7 +376,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--fill-social-icon);
+    border: 1px solid currentColor;
     width: 170px;
     height: 92px;
     border-radius: 4px;
@@ -393,7 +393,6 @@ button {
 .client-link:hover,
 .client-link:focus {
     color: var(--accent-color);
-    border-color: var(--accent-color);
 }
 
 /* =============== STUDIO BUTTON SECTION =============== */
@@ -491,15 +490,11 @@ button {
     align-items: center;
     justify-content: center;
     position: absolute;
-    left: 0;
     bottom: 0;
     width: 100%;
     height: 70px;
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-bgc-color);
     background-color: rgba(47, 48, 58, 0.8);;
@@ -527,7 +522,7 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     padding: 6px 22px;
-    transition-property: color, background-color;
+    transition-property: color, background-color, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -649,7 +644,7 @@ button {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.2);
-    transition-property: opacity, visability;
+    transition-property: opacity, visibility;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
